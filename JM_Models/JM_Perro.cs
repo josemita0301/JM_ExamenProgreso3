@@ -16,7 +16,7 @@ namespace JM_ExamenProgreso3.JM_Models
         public int JM_id { get; set; }
 
         [MaxLength(10)]
-        public string JM_nombre{ get; set; }
+        public string JM_descripcionEnfermedad{ get; set; }
         public string JM_raza { get; set; }
 
         [DataType(DataType.DateTime)]

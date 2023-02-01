@@ -14,7 +14,7 @@
             
             <Label FontSize="14" FontAttributes="Bold" Text="Name" Margin="0,5,5,0"/>
             <Entry x:Name="JM_nombreInput"
-                   Placeholder="Nombre del perro: " PlaceholderColor="Gray" Text="{Binding JM_nombre}"/>
+                   Placeholder="Nombre del perro: " PlaceholderColor="Gray" Text="{Binding JM_descripcionEnfermedad}"/>
 
             <Label FontSize="14" FontAttributes="Bold" Text="Name" Margin="0,5,5,0"/>
             <Entry x:Name="JM_razaInput"
