@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace JM_ExamenProgreso3.JM_Api
+namespace JM_ExamenProgreso3.JM_ViewModel
 {
-    internal class JM_ClaseApi
+    internal class DateViewModel
     {
-
     }
 }
