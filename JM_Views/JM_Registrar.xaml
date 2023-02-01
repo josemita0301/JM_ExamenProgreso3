@@ -20,7 +20,7 @@
             <Entry x:Name="JM_razaInput"
                    Placeholder="Name" PlaceholderColor="Gray" Text="{Binding JM_raza}"/>
 
-            <Label x:Name="fuente"
+            <Label x:Name="cosoFecha"
                 Text="{Binding DateTime, StringFormat='{0:dd/MM/yyyy HH:mm:ss}'}">
                 <Label.BindingContext>
                     <local:DateViewModel/>
