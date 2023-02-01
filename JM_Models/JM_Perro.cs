@@ -21,6 +21,6 @@ namespace JM_ExamenProgreso3.JM_Models
 
         [DataType(DataType.DateTime)]
         [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:dd/MM/yyyy}")]
-        public DateTime CreationDate { get; set; }
+        public DateTime JM_CreationDate { get; set; }
     }
 }

@@ -4,10 +4,19 @@ namespace JM_ExamenProgreso3.JM_Views;
 
 public partial class JM_PáginaPrincipal : ContentPage
 {
-	public JM_PáginaPrincipal()
+
+    public JM_PáginaPrincipal()
 	{
 		InitializeComponent();
+        LoadData();
 	}
+    protected override void OnAppearing()
+    {
+        base.OnAppearing();
+        {
+            LoadData();
+        }
+    }
 
     private void LoadData()
     {
