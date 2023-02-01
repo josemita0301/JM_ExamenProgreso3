@@ -53,4 +53,9 @@
 	  <PackageReference Include="SQLitePCLRaw.provider.dynamic_cdecl" Version="2.1.4" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Folder Include="JM_ViewModel\" />
+	  <Folder Include="JM_Views\" />
+	</ItemGroup>
+
 </Project>
