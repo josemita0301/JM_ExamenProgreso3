@@ -17,7 +17,7 @@
     <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
         <ShellContent
         Title="Registrar perro enfermo"
-        ContentTemplate="{DataTemplate views:DogPage}"
+        ContentTemplate="{DataTemplate views:JM_Registrar}"
         />
     </FlyoutItem>
 
