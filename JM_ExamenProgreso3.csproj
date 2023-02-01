@@ -55,7 +55,12 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="JM_Views\" />
+	  <MauiXaml Update="JM_Views\JM_PáginaPrincipal.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="JM_Views\JM_Registrar.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	</ItemGroup>
 
 </Project>

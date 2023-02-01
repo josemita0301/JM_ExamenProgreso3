@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"
+             xmlns:models="clr-namespace:JM_ExamenProgreso3.JM_Models"
+             xmlns:local="clr-namespace:JM_ExamenProgreso3.JM_Views"
+             x:Class="JM_ExamenProgreso3.JM_Views.JM_Registrar"
+             Title="JM_Registrar"
+             Shell.FlyoutBehavior = "Flyout"
+             Shell.FlyoutItemIsVisible="True">
+    
+    <ScrollView Margin="20">
+        <StackLayout>
+            
+            <Label FontSize="14" FontAttributes="Bold" Text="Name" Margin="0,5,5,0"/>
+            <Entry x:Name="JM_nombreInput"
+                   Placeholder="Nombre del perro: " PlaceholderColor="Gray" Text="{Binding JM_nombre}"/>
+
+            <Label FontSize="14" FontAttributes="Bold" Text="Name" Margin="0,5,5,0"/>
+            <Entry x:Name="JM_razaInput"
+                   Placeholder="Name" PlaceholderColor="Gray" Text="{Binding JM_raza}"/>
+
+            <Button Text="Enter" WidthRequest="100" CornerRadius="20" HorizontalOptions="Center" BackgroundColor="#0792ef" Clicked="JM_CrearPerroClicked"/>
+            <Button Text="Enter" WidthRequest="100" CornerRadius="20" HorizontalOptions="Center" BackgroundColor="#0792ef" Clicked="JM_BorrarPerroyyClicked"/>
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
